@@ -1,0 +1,18 @@
+<books>
+	<book id="xml_in_a_nutshell">
+		<author>Elliot Rusty Harold</author>
+		<title>XML in a nushell</title>
+		<publisher>O'Reilly</publisher>
+		<edition>2001</edition>
+		<isbn>978-999999999</isbn>
+		<format>paper</format>
+	</book>
+	<book id="intro_json">
+		<author>Lindsay Bassett</author>
+		<title>Introduction to JavaScript Object Notation ~ a to-the-point guide to JSON</title>
+		<publisher>O'Reilly</publisher>
+		<edition>Early release 2015</edition>
+		<isbn>978-1-491-92948-3</isbn>
+		<format>pdf</format>
+	</book>
+</books>

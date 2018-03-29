@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  
+  <public publicId="-//AMPLEXOR// DOCUMENT//DTD//EN" uri="doctypes/document.dtd"/>
+  
+  <group xml:base="doctypes/iso-ent/">
+	  <public publicId="ISO 8879-1986//ENTITIES General Technical//EN" uri="isotech.ent" />
+	  <public publicId="ISO 8879-1986//ENTITIES Publishing//EN" uri="isopub.ent" />
+	  <public publicId="ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN" uri="isonum.ent"  />
+	  <public publicId="ISO 8879-1986//ENTITIES Greek Letters//EN" uri="isogrk1.ent"         />
+	  <public publicId="ISO 8879-1986//ENTITIES Monotoniko Greek//EN" uri="isogrk2.ent"     />
+	  <public publicId="ISO 8879-1986//ENTITIES Greek Symbols//EN" uri="isogrk3.ent"   />
+	  <public publicId="ISO 8879-1986//ENTITIES Alternative Greek Symbols//EN" uri="isogrk4.ent" />
+	  <public publicId="ISO 8879-1986//ENTITIES Added Latin 1//EN" uri="isolat1.ent"        />
+	  <public publicId="ISO 8879-1986//ENTITIES Box and Line Drawing//EN" uri="isobox.ent"   />
+	  <public publicId="ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN" uri="isoamso.ent" />
+	  <public publicId="ISO 8879-1986//ENTITIES Added Math Symbols: Delimiters//EN" uri="isoamsc.ent" />
+  </group>
+</catalog>

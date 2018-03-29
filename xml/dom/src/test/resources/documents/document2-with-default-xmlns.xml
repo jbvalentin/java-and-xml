@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <title>TITRE</title>
+  </head>
+  <body>
+  <section id="sect_1">
+    <title>Section 1</title>
+    <p>Paragraphe 1</p>
+    <p>Paragraphe 2</p>
+    <p>Paragraphe 3</p>
+  </section>
+  </body>
+</html>

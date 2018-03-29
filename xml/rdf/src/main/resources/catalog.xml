@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<catalog  xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="urn:oasis:names:tc:entity:xmlns:xml:catalog catalog.xsd"
+          prefer="system">
+
+	  <rewriteSystem systemIdStartString="http://www.s1000d.org/S1000D_2-3-1" rewritePrefix="." />
+	  <rewriteURI uriStartString="http://www.s1000d.org/S1000D_2-3-1" rewritePrefix="." />
+
+</catalog>

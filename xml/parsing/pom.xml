@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>TestParsing</artifactId>
+  <packaging>jar</packaging>
+  <name>TestParsing</name>
+  <description>Tests pour le parsing XML, divers et variés.</description>
+  
+  <organization>
+    <name>AMPLEXOR</name>
+    <url>http://www.amplexor.com</url>
+  </organization>
+  
+  <developers>
+    <developer>
+      <id>jbvalent</id>
+      <email>jean-baptiste.valentin@amplexor.com</email>
+      <organization>AMPLEXOR</organization>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.5.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+          <compilerVersion>1.7</compilerVersion>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+
+  <dependencies>
+  	<dependency>
+  		<groupId>xerces</groupId>
+  		<artifactId>xercesImpl</artifactId>
+  	</dependency>
+	<dependency>
+	    <groupId>xml-resolver</groupId>
+	    <artifactId>xml-resolver</artifactId>
+	</dependency>
+  	<dependency>
+  		<groupId>xml-apis</groupId>
+  		<artifactId>xml-apis</artifactId>
+  	</dependency>
+    
+	
+  </dependencies>
+  
+  
+  
+  <parent>
+  	<groupId>demos.xml</groupId>
+  	<artifactId>xml</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
+</project>

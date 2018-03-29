@@ -1,0 +1,10 @@
+
+
+
+
+<!ELEMENT document (title, p+) >
+
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT p (#PCDATA) >
+<!ATTLIST p   
+          id    ID    #IMPLIED  >
