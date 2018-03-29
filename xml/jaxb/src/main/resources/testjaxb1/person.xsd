@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified">
+
+  <xs:element name="person" type="personType">
+  </xs:element>
+  
+  <xs:complexType name="personType">
+    <xs:sequence>
+      <xs:element name="firstname" type="xs:string"></xs:element>
+      <xs:element name="lastname" type="xs:string"></xs:element>
+      <xs:element name="born" type="xs:integer"></xs:element>
+      <xs:element name="place-of-birth" type="xs:string"></xs:element>
+      <xs:element name="died" type="xs:integer"></xs:element>
+      <xs:element name="place-of-death" type="xs:string"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID"></xs:attribute>
+  </xs:complexType>
+</xs:schema>

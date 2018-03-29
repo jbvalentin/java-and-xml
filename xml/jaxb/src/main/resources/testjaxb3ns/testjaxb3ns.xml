@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofpersons>
+	<person id="js_bach" xmlns="http://www.amplexor.com/composer">
+		<firstname>Johann Sebastian</firstname>
+		<lastname>Bach</lastname>
+		<born>1685</born>
+		<place-of-birth>Eisenach</place-of-birth>
+		<died>1750</died>
+		<place-of-death>Leipzig</place-of-death>
+	</person>
+	<person id="r_wagner" xmlns="http://www.amplexor.com/composer">
+		<firstname>Richard</firstname>
+		<lastname>Wagner</lastname>
+		<born>1813</born>
+		<place-of-birth>Leipzig</place-of-birth>
+		<died>1883</died>
+		<place-of-death>Venice</place-of-death>
+	</person>
+	<person id="a_schoenberg" xmlns="http://www.amplexor.com/composer">
+		<firstname>Arnold</firstname>
+		<lastname>Schoenberg</lastname>
+		<born>1874</born>
+		<place-of-birth>Wien</place-of-birth>
+		<died>1951</died>
+		<place-of-death>Los Angeles</place-of-death>
+	</person>
+</listofpersons>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<html>
+<head>
+  <title>Sample xhtml document</title>
+</head>
+<body>
+<p>This html document is also a valid XML.</p>
+</body>
+</html>

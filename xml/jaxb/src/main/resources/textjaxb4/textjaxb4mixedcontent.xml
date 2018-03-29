@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<person id="r_wagner">
+	<firstname>Richard</firstname>
+	<lastname>Wagner</lastname>
+	<born>1813</born>
+	<place-of-birth>Leipzig</place-of-birth>
+	<died>1883</died>
+	<place-of-death>Venice</place-of-death>
+	<notes>Initially establishing his reputation as a composer of works in the romantic vein of Weber and Meyerbeer, 
+	Wagner revolutionised opera through his concept of the <b>Gesamtkunstwerk</b> ("<i>total work of art</i>"), by 
+	which he sought to synthesise the poetic, visual, musical and dramatic arts, with music subsidiary to drama.</notes>
+</person>

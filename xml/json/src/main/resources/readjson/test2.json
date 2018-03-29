@@ -1,0 +1,16 @@
+[{
+	"author" : "Elliot Rusty Harold",
+	"title": "XML in a nushell",
+	"publisher" : "O'Reilly",
+	"edition" : "2001",
+	"isbn": "978-999999999",
+	"format": "paper"
+}, {
+	"author" : "Lindsay Bassett",
+	"title": "Introduction to JavaScript Object Notation ~ a to-the-point guide to JSON",
+	"publisher" : "O'Reilly",
+	"edition" : "Early release 2015",
+	"isbn": "978-1-491-92948-3",
+	"format": "pdf"
+}
+]

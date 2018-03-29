@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book
+[<!NOTATION jpeg SYSTEM "jpeg">
+<!ENTITY cover_hadrien SYSTEM "images/covers/cover_hadrien.jpg" NDATA jpeg>]>
+<!-- Here's a comment -->
+<book>
+  <?testpi a processing instruction?>
+  <title>Les mémoires d'Hadrien</title>
+  <author>Marguerite Yourcenar</author>
+  <cover imgref="cover_hadrien" />
+</book>

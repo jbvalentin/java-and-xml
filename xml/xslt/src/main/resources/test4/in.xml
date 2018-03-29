@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+<book>
+  <title>Les mémoires d'Hadrien</title>
+  <author>Marguerite Yourcenar</author>
+</book>
+<book>
+  <title>Les fruits du Congo</title>
+  <author>Alexandre Vialatte</author>
+</book>
+<book>
+<title>Voyage au bout de la nuit</title>
+<author>Louis-Ferdinand Céline</author>
+</book>
+</books>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="document_1" role="demo">
+  <title>TITRE</title>
+  <section id="sect_1">
+    <title>Section 1</title>
+    <p>Paragraphe 1</p>
+    <p>Paragraphe 2</p>
+    <p>Paragraphe 3</p>
+  </section>
+</document>
