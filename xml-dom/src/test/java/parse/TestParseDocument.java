@@ -10,9 +10,10 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.junit.Before;
 import org.junit.Test;
 import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.amplexor.series2.parse.ParseDocument;
+import dom.series2.parse.ParseDocument;
 
 public class TestParseDocument {
 
@@ -29,6 +30,16 @@ public class TestParseDocument {
 		final Document doc = this.parser.parseDocument("/documents/document1.xml");
 		assertNotNull(doc);
 		assertEquals("document", doc.getDocumentElement().getLocalName());
+
+	}
+
+	@Test
+	public void testSO() throws IOException, SAXException, ParserConfigurationException {
+		final Document doc = this.parser.parseDocument("/documents/document-xml-so-42951996.xml");
+
+		NodeList l = doc.getDocumentElement().getElementsByTagNameNS("http://baz.net", "foo");
+
+		assertEquals(1, l.getLength());
 
 	}
 

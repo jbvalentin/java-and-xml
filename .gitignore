@@ -30,3 +30,5 @@ target/
 .settings/
 .sonarlint/
 .recommenders/
+.idea/
+*.iml

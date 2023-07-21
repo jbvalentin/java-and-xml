@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<xyz xmlns="http://baz.net" xmlns:foo="http://www.foo.org">
+    <namespace xmlns:xyz="http://www.foo.org"/>
+    <def xmlns:dwebtek="http://www.cs.au.dk/dWebTek">
+        <foo foo:xmlns="http://www.bar.com"/>
+    </def>
+</xyz>

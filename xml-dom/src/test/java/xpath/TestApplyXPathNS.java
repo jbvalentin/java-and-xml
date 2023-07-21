@@ -12,8 +12,8 @@ import org.junit.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
-import com.amplexor.series2.parse.ParseDocument;
-import com.amplexor.series3.xpath.XPathQueryNS;
+import dom.series2.parse.ParseDocument;
+import dom.series3.xpath.XPathQueryNS;
 
 /**
  * Applying XPath expressions with namespaces.

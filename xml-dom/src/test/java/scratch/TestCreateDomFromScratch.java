@@ -9,7 +9,7 @@ import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 
-import com.amplexor.scratch.CreateDOMFromScratch;
+import dom.scratch.CreateDOMFromScratch;
 
 public class TestCreateDomFromScratch {
 

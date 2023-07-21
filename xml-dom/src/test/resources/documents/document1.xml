@@ -3,8 +3,8 @@
   <title>TITRE</title>
   <section id="sect_1">
     <title>Section 1</title>
-    <p>Paragraphe 1</p>
-    <p>Paragraphe 2</p>
+    <p id="p1">Paragraphe 1</p>
+    <p id="p2">Paragraphe 2</p>
     <p>Paragraphe 3</p>
   </section>
 </document>

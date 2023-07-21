@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -8,10 +9,14 @@
 	
   <name>Demos XML</name>
   <modules>
+	<module>common-data-model</module>
     <module>csv</module>
+    <module>json-gson</module>
+    <module>json-jackson</module>
+    <module>json-jsonorg</module>
+    <module>json-simple</module>
     <module>xml-dom</module>
     <module>xml-jaxb</module>
-    <module>json</module>
     <module>xml-parsing</module>
     <module>rdf</module>
     <module>xml-sax</module>
@@ -32,7 +37,7 @@ A faire aussi :
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<encoding>utf-8</encoding>
-		<jackson.version>2.6.3</jackson.version>
+		<jackson.version>2.11.3</jackson.version>
 		<apache.jena.version>3.6.0</apache.jena.version>
 		<apache.xalan.version>2.7.2</apache.xalan.version>
 		<saxon.version>9.7.0-18</saxon.version>
@@ -117,6 +122,15 @@ A faire aussi :
 
 			<!-- For Unit / XMLUnit tests -->
 			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-api</artifactId>
+				<version>5.8.1</version>
+				<scope>test</scope>
+			</dependency>
+
+
+
+			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>4.12</version>
@@ -168,16 +182,29 @@ A faire aussi :
 			<!-- XMLBeans -->
 			<!-- XStream -->
 
-			<!-- JSON -->
+			<!-- == JSON == -->
+			<!-- json-simple -->
 			<dependency>
 				<groupId>com.googlecode.json-simple</groupId>
 				<artifactId>json-simple</artifactId>
 				<version>1.1.1</version>
 			</dependency>
-			<!-- Jackson dependencies -->
+			<!-- Jackson dependencies (JSON, XML, CSV) -->
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+				<!-- included in jackson-modules-java8 -->
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-datatype-jsr310</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<!-- Jackson extensions for JSR310 (java 8 date & time API) -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.datatype</groupId>
+				<artifactId>jackson-datatype-jsr310</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
 			<!-- Jackson extension for XML -->
@@ -192,14 +219,27 @@ A faire aussi :
 				<artifactId>jackson-dataformat-csv</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
-			
-			<!-- Apache Jena -->
+			<!-- json.org -->
 			<dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>apache-jena-libs</artifactId>
-      <version>${apache.jena.version}</version>
-      <type>pom</type>
-    </dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>20141113</version>
+			</dependency>
+
+
+			<!-- Apache Jena (for RDF) -->
+			<dependency>
+			  <groupId>org.apache.jena</groupId>
+			  <artifactId>apache-jena-libs</artifactId>
+			  <version>${apache.jena.version}</version>
+			  <type>pom</type>
+			</dependency>
+
+			<dependency>
+				<groupId>com.google.code.gson</groupId>
+				<artifactId>gson</artifactId>
+				<version>2.8.5</version>
+			</dependency>
     
 			<!-- XProc -->
 				<!-- 
