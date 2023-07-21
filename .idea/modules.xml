@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xml-parsing/TestParsing.iml" filepath="$PROJECT_DIR$/xml-parsing/TestParsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-data-model/common-data-model.iml" filepath="$PROJECT_DIR$/common-data-model/common-data-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csv/csv.iml" filepath="$PROJECT_DIR$/csv/csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-dom/dom.iml" filepath="$PROJECT_DIR$/xml-dom/dom.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-and-xml.iml" filepath="$PROJECT_DIR$/.idea/java-and-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-jaxb/jaxb.iml" filepath="$PROJECT_DIR$/xml-jaxb/jaxb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-gson/json-gson.iml" filepath="$PROJECT_DIR$/json-gson/json-gson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-jackson/json-jackson.iml" filepath="$PROJECT_DIR$/json-jackson/json-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-jsonorg/json-jsonorg.iml" filepath="$PROJECT_DIR$/json-jsonorg/json-jsonorg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-simple/json-simple.iml" filepath="$PROJECT_DIR$/json-simple/json-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdf/rdf.iml" filepath="$PROJECT_DIR$/rdf/rdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-sax/sax.iml" filepath="$PROJECT_DIR$/xml-sax/sax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-jackson/xml-jackson.iml" filepath="$PROJECT_DIR$/xml-jackson/xml-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-xmlunit/xmlunit.iml" filepath="$PROJECT_DIR$/xml-xmlunit/xmlunit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-xslt/xslt.iml" filepath="$PROJECT_DIR$/xml-xslt/xslt.iml" />
     </modules>
   </component>
 </project>

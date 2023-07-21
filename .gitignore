@@ -32,3 +32,4 @@ target/
 .recommenders/
 .idea/
 *.iml
+.vscode/

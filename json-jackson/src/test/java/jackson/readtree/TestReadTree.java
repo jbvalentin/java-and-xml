@@ -3,24 +3,23 @@ package jackson.readtree;
 import java.io.IOException;
 
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import model.db.DbHost;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestReadTree {
 	
-	@BeforeClass
+	@BeforeAll
 	public static void initializeObject() {
 		System.out.println("Init obj");
 	}
 	
-	@Before
+	@BeforeAll
 	public void initializeOther() {
 		System.out.println("Init other");
 	}
@@ -49,11 +48,5 @@ public class TestReadTree {
 			e.printStackTrace();
 		}
 	}
-	
-	@Test
-	public void stupidTest() {
-		assertEquals(true, true);
-	}
-	
 
 }
