@@ -9,14 +9,14 @@
   <name>Demos XML</name>
   <modules>
     <module>csv</module>
-    <module>dom</module>
-    <module>jaxb</module>
+    <module>xml-dom</module>
+    <module>xml-jaxb</module>
     <module>json</module>
-    <module>parsing</module>
+    <module>xml-parsing</module>
     <module>rdf</module>
-    <module>sax</module>
-    <module>xmlunit</module>
-    <module>xslt</module>
+    <module>xml-sax</module>
+    <module>xml-xmlunit</module>
+    <module>xml-xslt</module>
   </modules>
   <description>Demos XML
 A faire aussi : 
