@@ -1,10 +1,18 @@
 # java-and-xml
-XML Samples
+
+JSON, XML, CSV Samples
 
 
-
-
->  TODO
-> Yaml
-> Mardown ?
+> TODO
+>
 > CSV
+>
+> Yaml
+>
+> Markdown ?
+>
+> XProc
+>
+> [Apache Santuario](https://santuario.apache.org/) : signature des XML
+>
+> EXI : Efficient XML Interchange

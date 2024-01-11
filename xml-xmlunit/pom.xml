@@ -1,83 +1,71 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <artifactId>xmlunit</artifactId>
-  
-  <parent>
-    <groupId>demos.xml</groupId>
-    <artifactId>xml</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <organization>
-    <name>AMPLEXOR</name>
-    <url>http://www.amplexor.com</url>
-  </organization>
-  
-  <developers>
-    <developer>
-      <id>jbvalent</id>
-      <email>jean-baptiste.valentin@amplexor.com</email>
-      <organization>AMPLEXOR</organization>
-      <timezone>+1</timezone>
-    </developer>
-  </developers>
-  
-  <dependencies>
-  	<dependency>
-  		<groupId>xerces</groupId>
-  		<artifactId>xercesImpl</artifactId>
-  	</dependency>
-  	<dependency>
-		<groupId>xalan</groupId>
-		<artifactId>xalan</artifactId>
-	</dependency>
-  	<!-- http://mvnrepository.com/artifact/xml-resolver/xml-resolver -->
-	<dependency>
-	    <groupId>xml-resolver</groupId>
-	    <artifactId>xml-resolver</artifactId>
-	</dependency>
-  	
-  	<dependency>
-  		<groupId>xml-apis</groupId>
-  		<artifactId>xml-apis</artifactId>
-  	</dependency>
-    <dependency>
-        <groupId>net.sf.saxon</groupId>
-        <artifactId>Saxon-HE</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>net.sf.saxon</groupId>
-        <artifactId>saxon-dom</artifactId>
-    </dependency>
-	<dependency>
-	  <groupId>junit</groupId>
-	  <artifactId>junit</artifactId>
-	  <scope>test</scope>
-	</dependency>
-	<!-- Old version xml unit -->
-	<dependency>
-	  <groupId>xmlunit</groupId>
-	  <artifactId>xmlunit</artifactId>
-	  <scope>test</scope>
-	</dependency>
-	<!-- New version of XML Unit -->
-	<dependency>
-	    <groupId>org.xmlunit</groupId>
-	    <artifactId>xmlunit-core</artifactId>
-	    <version>2.8.2</version>
-	    <scope>test</scope>
-	</dependency>
-	<dependency>
-	    <groupId>org.xmlunit</groupId>
-	    <artifactId>xmlunit-matchers</artifactId>
-	    <version>2.8.2</version>
-	    <scope>test</scope>
-	</dependency>
-	<dependency>
-	    <groupId>org.xmlunit</groupId>
-	    <artifactId>xmlunit-assertj</artifactId>
-	    <version>2.8.2</version>
-	    <scope>test</scope>
-	</dependency>	<!-- 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>xml-xmlunit</artifactId>
+
+    <parent>
+        <groupId>demos.xml</groupId>
+        <artifactId>xml</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+        </dependency>
+        <!-- http://mvnrepository.com/artifact/xml-resolver/xml-resolver -->
+        <dependency>
+            <groupId>xml-resolver</groupId>
+            <artifactId>xml-resolver</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>xml-apis</groupId>
+            <artifactId>xml-apis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-HE</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>saxon-dom</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- Old version xml unit -->
+        <dependency>
+            <groupId>xmlunit</groupId>
+            <artifactId>xmlunit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- New version of XML Unit -->
+        <dependency>
+            <groupId>org.xmlunit</groupId>
+            <artifactId>xmlunit-core</artifactId>
+            <version>2.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.xmlunit</groupId>
+            <artifactId>xmlunit-matchers</artifactId>
+            <version>2.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.xmlunit</groupId>
+            <artifactId>xmlunit-assertj</artifactId>
+            <version>2.8.2</version>
+            <scope>test</scope>
+        </dependency>    <!--
 	<dependency>
 	    <groupId>com.xmlcalabash</groupId>
 	    <artifactId>xmlcalabash</artifactId>
@@ -85,6 +73,6 @@
 	</dependency>
 	(Nécessite restlet)
 	 -->
-  </dependencies>
-  
+    </dependencies>
+
 </project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shelf>
+    <name>Littérature</name>
+
+    <book>
+        <title>Les mémoires d'Hadrien</title>
+        <author>Marguerite Yourcenar</author>
+    </book>
+    <book>
+        <title>La guerre et la paix</title>
+        <author>Léon Tolstoï</author>
+    </book>
+</shelf>
